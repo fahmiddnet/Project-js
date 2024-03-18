@@ -70,22 +70,7 @@
 
 
 
-// find prime number 
-
-function getData(form) {
-  var formData = new FormData(form);
-
-  for (var pair of formData.entries()) {
-    console.log(pair[0] + ": " + pair[1]);
-  }
-
-  console.log(Object.fromEntries(formData));
-}
-
-document.getElementById("myForm").addEventListener("submit", function (e) {
-  e.preventDefault();
-  getData(e.target);
-});
+// find prime number
 
 
 // const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,12,43,23,32.545,545,433,343,43,43,43,43,4,34,3];
